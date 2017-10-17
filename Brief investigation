@@ -1,0 +1,7 @@
+learning writing patter  首先需要把新闻进行分类（文本分类），提取出主题为stock的新闻，然后summary它的主要趋势，形成一篇归纳性质的文章。重点在于学习
+金融新闻的写作风格，提取它在用词和句法结构方面的特征。
+问题分解：
+1、首先得把📰分类，找出描述股票变化的entry（文本分类，类似于情感分析，可用卷积神经网络来实现）
+2、然后提取its writing style in vocabulary and sentence structure perspectives.这一部分，可以用类似于NMT的技术来实现，因为也是sequence to 
+sequence的模型。涉及到的技术：GRU,Stacked Bidirectional RNN, Encoder and Decoder using RNN, 注意力机制，柱搜索算法，softmax）但是需要改造
+已有模型来适应此项目的需求。
