@@ -1,3 +1,4 @@
+
 learning writing patter  首先需要把新闻进行分类（文本分类），提取出主题为stock的新闻，然后summary它的主要趋势，形成一篇归纳性质的文章。重点在于学习
 金融新闻的写作风格，提取它在用词和句法结构方面的特征。
 问题分解：
@@ -5,3 +6,35 @@ learning writing patter  首先需要把新闻进行分类（文本分类），�
 2、然后提取its writing style in vocabulary and sentence structure perspectives.这一部分，可以用类似于NMT的技术来实现，因为也是sequence to 
 sequence的模型。涉及到的技术：GRU,Stacked Bidirectional RNN, Encoder and Decoder using RNN, 注意力机制，柱搜索算法，softmax）但是需要改造
 已有模型来适应此项目的需求。
+Computational journalism may be helpful to my project?
+fact-to-statement translation?
+discovered facts are translated into textual news(news generation)
+How to generate a story?  template and rules
+NLTK to transform financial news into structured data format
+AlchemyAPI to extract rich features of sentences
+
+Natural language generation(NLG)
+https://en.wikipedia.org/wiki/Natural_language_generation#cite_note-1
+
+NLG major concerns:acquiring content selection rules using machine learning(content determination)
+The core of the research is the measurement of the variation of a language model generated through the clustering
+Traditional approach of NLG is knowledge domain based, but arrival of machine learning has called brings NLG to a new area
+ It is clear that in this method content classification is deliberated as a problem of collective classification which provides a broader view of the data instead of deep analysis
+ Portet et al. [64] show empir- ical formulation of pattern mining which is developed as a part of BT-45, a system that provides summaries based on a neonatal intensive care unit
+ Rule base and Heuristic search is also helpful for content determination
+ Employing rules in content selection is also a common 
+ Task was more clearly focused on Resource Description Framework (RDF) triples which isused extensively by semantic web
+ Document structuring:turning the selected content to a more structured format:group, order, relate
+ Most early systems utilized Attribute Value Matrices(AVM) to do it, later based on tuples of values
+ Lexicalization? coarse grained lexicalization or fine grained lexicalization(deep analysis
+ Portet et al. [64] show empir- ical formulation of pattern mining which is developed as a part of BT-45, a system that provides summaries based on a neonatal intensive care unit
+Rule Based Lexicalization  Less human invlove Addressing this gap, Reiter et al. [66] present an interesting model which relies on consistent set of data-to-word rules.
+Lexicalization Using Case Based Reasoning(CBR)
+Aggregation We may need syntactic embedding to generating description of stock trends
+Trainable approaches: ranking functions/surpervised learning approach Main difference lies in the way that text is fed, Barzilay and Lapata [8] use clustered text and Walker et al. [83] use raw text.
+Evolutionary Algorithms for Aggregation  fitness function involved(GP)In terms of the process and evaluation, genetic algorithm brought by this has considerable similarity with model described by Herv ́as and Gerv ́as [37].
+Realization :
+1.Statistical model:Langkilde-Geary [52] HALogen system
+                    Belz et al. [12]. reusable realization framework
+2.Grammar Based Realization:Systemic grammar specification[46]
+                            OpenCCG(Combinatory Categorial Grammar[85, 86]
